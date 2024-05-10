@@ -1,0 +1,99 @@
+/* .price-tracker-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #eeecec;
+    background-color: #242424;
+    align-items: center;
+    align-content: center;
+}
+
+
+.track-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.track-button:hover {
+    background-color: #45a049;
+} */
+
+
+.price-tracker-container {
+    max-width: 1000px;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #3a3939;
+    border-radius: 8px;
+    background-color: #1f1f1fe0; /* Dark grey background */
+    color: #fff; /* White text */
+    display: flex;
+    flex-wrap: wrap;
+    /* z-index: 20;
+    opacity: 80%; */
+  }
+  
+  .track-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: large;
+  }
+  
+  .track-button:hover {
+    background-color: #45a049;
+  }
+  
+  .close-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .close-button:hover {
+    background-color: #d32f2f;
+  }
+  .price-tracker-container-inner {
+    width: 50%;
+    font-size: large;
+  }
+  .email-config-container {
+    width: 50%;
+  }
+  .price-history {
+    width: 100%;
+    font-size: large;
+  }
+  button{
+    font-size: large;
+    cursor: pointer;
+  }
